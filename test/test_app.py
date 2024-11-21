@@ -1,5 +1,5 @@
 import unittest
-from initial import is_valid_input, is_palindrome  # Assurez-vous que le script principal est nommé `app.py`
+from src.initial import is_valid_input, is_palindrome
 
 class TestAppFunctions(unittest.TestCase):
     def test_is_valid_input(self):
